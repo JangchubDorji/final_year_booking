@@ -4,9 +4,11 @@ import "./navbar.css"
 import image from "./Doro Zam.jpg"
 import pic from "./san.jpg"
 import yum from "./Yum.jpg"
-import {  } from '@fortawesome/free-solid-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faTwitter, faFacebook, faInstagram} from '@fortawesome/free-brands-svg-icons'
+import { FaFacebook } from 'react-icons/fa';
+import { FaTwitter } from 'react-icons/fa';
+import { FaInstagram } from 'react-icons/fa';
+
+
 export default function Navbar() {
 
   return (
@@ -95,9 +97,10 @@ export default function Navbar() {
                             </div>
                         </div>
                         <div className='social-icons'>
-                        <FontAwesomeIcon icon={faTwitter} size="3x" color='#16FF00' />
-                        <FontAwesomeIcon icon={faFacebook} size="3x" color='#16FF00'   />
-                        <FontAwesomeIcon icon={faInstagram} size="3x" color='#16FF00'  />
+                        <FaFacebook size={40} color='blue'/>
+                        <FaTwitter size={40} color='lightblue'/>
+                        <FaInstagram size={40} color='pink'/>
+
                         </div> 
                         </div>
                  </div>
