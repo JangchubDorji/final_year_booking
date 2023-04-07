@@ -1,0 +1,76 @@
+.navbar-brand{
+    color: #16FF00;
+    padding-left: 5%;
+    font-style: oblique;
+}
+.nav-link{
+    color:white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+    font-weight: 200;
+}
+.second{
+    background-color:#0B2447;
+    text-align: center;
+}
+
+.card{
+    width: 200px;
+    height: 400PX;
+    display: inline-block;
+    margin: 3%;
+    border-style: double;
+    border-color: hsl(0, 14%, 93%);
+}
+.card-body{
+    margin-bottom: 5%;
+}
+.btn{
+    color: red;
+}
+.navbar-toggler-icon{
+   background-color:rgb(245, 245, 245);
+}
+
+.heading{
+    margin-top: 3%;
+    color:#16FF00 ;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.container{
+    background-color:#0B2447;
+    border-radius: 2ch;
+    margin-bottom: 5%;
+    
+}
+.container-second{
+    background-color:rgb(88, 88, 88);
+   
+ padding-top: 5%;
+}
+.social-icons {
+    padding-bottom: 5%;
+    margin-right: 10px;
+}
+  /*
+  .social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 20px;
+    color: #000;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .social-icons a:hover {
+    color: #00bcd4;
+  }
+  
+.heading{
+    font-weight: 200;
+    font-style: italic;
+    color: #16FF00;
+}
+*/
+
+   
